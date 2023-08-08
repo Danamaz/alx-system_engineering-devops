@@ -1,3 +1,3 @@
 #!/bin/bash
-find . -depth -type -empty -printf %"f\n"
+find . -depth -empty -printf %f"\n"
  
